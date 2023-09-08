@@ -19,7 +19,7 @@ a {
     padding: .85em;
     border: 2px solid black;
     border-radius: 50px;
-    color: white
+    color: white;
 }
 a:hover,
 a.focus {
@@ -63,13 +63,3 @@ img{
     justify-content: space-between;
     flex-direction: row-reverse;
 }
-
-
-
-/* Typography */
-
-
-
-
-/* font-family: 'Roboto', sans-serif; */
-/* font-family: 'Ubuntu', sans-serif;  */
