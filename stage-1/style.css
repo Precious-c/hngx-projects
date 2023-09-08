@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    padding: .85em;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: white
+}
+a:hover,
+a.focus {
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+.currentDayOfTheWeek, 
+.currentUTCTime, 
+.myTrack,
+.githubURL {
+    margin-bottom: 1em;
+}
+.slackUserName{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+img{
+    width: 90%;
+    border-radius: 50%;
+    border: 5px solid #efefef;
+    margin: 20px;
+}
+.container{
+    width: 398px;
+    border-radius: 30px;
+    box-shadow: 2px 5px 9px rgb(173, 161, 161);
+    /* border: 5px solid #efefef; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    background: rgb(255, 255, 255);
+}
+.dateTimeContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+
+
+/* Typography */
+
+
+
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif;  */
